@@ -1,5 +1,5 @@
 const Home = () => {
-  const pressed = () => {
+  const Pressed = () => {
     navigation.navigate("profile", { 
       itemId: res.data.id,
       itemName: res.data.name,
