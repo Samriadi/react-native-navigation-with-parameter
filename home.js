@@ -1,4 +1,4 @@
-const Home = () => {
+const Home = ({navigation}) => {
   const Pressed = () => {
     navigation.navigate("profile", { 
       itemId: res.data.id,
